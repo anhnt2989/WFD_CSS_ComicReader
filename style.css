@@ -1,0 +1,144 @@
+#main {
+    width: 100%;
+    margin: auto;
+}
+
+.head {
+    margin: auto;
+    display: block;
+    width: 98%;
+    height: 15%;
+}
+#logo {
+    float: left;
+}
+#search input {
+    margin-left: 5px;
+    width: 65%;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+#search a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 2px;
+    position: absolute;
+}
+
+#searchIcon {
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 4px;
+}
+
+#search {
+    width: 40%;
+    padding: 3px;
+    background-color: #ff8208;
+    border-radius: 5px;
+    float: right;
+    margin-top: 100px;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333333;
+    width: 99%;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    border-radius: 5px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#left {
+    overflow: hidden;
+    background-color: #333333;
+    height: 92%;
+    width: 150px;
+    position: absolute;
+    margin-top: 10px;
+    top: 37%;
+    border-radius: 5px;
+}
+#leftLabel {
+    position: absolute;
+    top: 37%;
+    left: 60px;
+    height: 100px;
+    width: 102px;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+#left a {
+    float: top;
+    display: block;
+    margin-top: 20px;
+    color: #f2f2f2;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#content {
+    position: absolute;
+    left: 150px;
+    top: 35%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: 100%;
+
+}
+#content img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+
+#content img:hover {
+    opacity: 0.5;
+}
+
+
+#footer {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+a:hover {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
