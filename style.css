@@ -9,15 +9,18 @@
     width: 98%;
     height: 15%;
 }
+
 #logo {
     float: left;
 }
+
 #search input {
     margin-left: 5px;
     width: 65%;
     border-radius: 5px;
     margin-bottom: 2px;
 }
+
 #search a {
     text-decoration: none;
     color: whitesmoke;
@@ -76,6 +79,7 @@ body {
     top: 37%;
     border-radius: 5px;
 }
+
 #leftLabel {
     position: absolute;
     top: 37%;
@@ -104,28 +108,49 @@ body {
     margin-top: 10px;
     width: 90%;
     height: 100%;
-
 }
+
+.content {
+    position: relative;
+}
+
+
+#content .textbox {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #333333;
+    opacity: 0.9;
+    color: white;
+    float: left;
+    margin-top: 210px;
+    margin-left: -150px;
+}
+
+
 #content img {
     width: 150px;
     height: 200px;
     display: block;
     float: left;
-    padding-left: 50px;
-    padding-top: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
-
 
 
 #content img:hover {
     opacity: 0.5;
 }
 
-
 #footer {
     position: fixed;
     right: 10px;
     bottom: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
